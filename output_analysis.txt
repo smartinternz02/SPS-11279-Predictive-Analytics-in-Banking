@@ -1,0 +1,59 @@
+having the data to be analysingSLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+11162 rows X 18 cols
+                                                                                                  bank.csv                                                                                                   
+ id   |  age  |     job      |  marital  |  education  |  default  |  balance  |  housing  |  loan  |  contact  |  day  |  month  |  duration  |  campaign  |  pdays  |  previous  |  poutcome  |  deposit  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 101  |   59  |      admin.  |  married  |  secondary  |       no  |     2343  |      yes  |    no  |  unknown  |    5  |    may  |      1042  |         1  |     -1  |         0  |   unknown  |      yes  |
+ 102  |   56  |      admin.  |  married  |  secondary  |       no  |       45  |       no  |    no  |  unknown  |    5  |    may  |      1467  |         1  |     -1  |         0  |   unknown  |      yes  |
+ 103  |   41  |  technician  |  married  |  secondary  |       no  |     1270  |      yes  |    no  |  unknown  |    5  |    may  |      1389  |         1  |     -1  |         0  |   unknown  |      yes  |
+ 104  |   55  |    services  |  married  |  secondary  |       no  |     2476  |      yes  |    no  |  unknown  |    5  |    may  |       579  |         1  |     -1  |         0  |   unknown  |      yes  |
+ 105  |   54  |      admin.  |  married  |   tertiary  |       no  |      184  |       no  |    no  |  unknown  |    5  |    may  |       673  |         2  |     -1  |         0  |   unknown  |      yes  |
+ 106  |   42  |  management  |   single  |   tertiary  |       no  |        0  |      yes  |   yes  |  unknown  |    5  |    may  |       562  |         2  |     -1  |         0  |   unknown  |      yes  |
+                                                                                                    bank.csv                                                                                                    
+  id    |  age  |     job      |  marital  |  education  |  default  |  balance  |  housing  |  loan  |  contact   |  day  |  month  |  duration  |  campaign  |  pdays  |  previous  |  poutcome  |  deposit  |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 11260  |   32  |  technician  |   single  |  secondary  |       no  |       29  |       no  |    no  |  cellular  |   19  |    aug  |       156  |         2  |     -1  |         0  |   unknown  |       no  |
+ 11261  |   43  |  technician  |  married  |  secondary  |       no  |        0  |       no  |   yes  |  cellular  |    8  |    may  |         9  |         2  |    172  |         5  |   failure  |       no  |
+ 11262  |   34  |  technician  |  married  |  secondary  |       no  |        0  |       no  |    no  |  cellular  |    9  |    jul  |       628  |         1  |     -1  |         0  |   unknown  |       no  |
+          Structure of bank.csv          
+ Index  |  Column Name  |  Column Type  |
+-----------------------------------------
+     0  |           id  |      INTEGER  |
+     1  |          age  |      INTEGER  |
+     2  |          job  |       STRING  |
+     3  |      marital  |       STRING  |
+     4  |    education  |       STRING  |
+     5  |      default  |       STRING  |
+     6  |      balance  |      INTEGER  |
+     7  |      housing  |       STRING  |
+     8  |         loan  |       STRING  |
+     9  |      contact  |       STRING  |
+    10  |          day  |      INTEGER  |
+    11  |        month  |       STRING  |
+    12  |     duration  |      INTEGER  |
+    13  |     campaign  |      INTEGER  |
+    14  |        pdays  |      INTEGER  |
+    15  |     previous  |      INTEGER  |
+    16  |     poutcome  |       STRING  |
+    17  |      deposit  |       STRING  |
+                                                                                                                                                                                                                                                   bank.csv summary                                                                                                                                                                                                                                                    
+ Missing Values [loan]  |  Missing Values [education]  |  Missing Values [previous]  |  Missing Values [housing]  |  Missing Values [poutcome]  |  Missing Values [duration]  |  Missing Values [marital]  |  Missing Values [default]  |  Missing Values [balance]  |  Missing Values [month]  |  Missing Values [contact]  |  Missing Values [campaign]  |  Missing Values [deposit]  |  Missing Values [id]  |  Missing Values [job]  |  Missing Values [day]  |  Missing Values [age]  |  Missing Values [pdays]  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     0  |                           0  |                          0  |                         0  |                          0  |                          0  |                         0  |                         0  |                         0  |                       0  |                         0  |                          0  |                         0  |                    0  |                     0  |                     0  |                     0  |                       0  |
+                                                                                                                                                            bank.csv                                                                                                                                                            
+  Summary   |          id          |         age          |     job      |  marital  |  education  |  default  |       balance        |  housing  |  loan   |  contact   |         day          |  month  |       duration       |       campaign       |        pdays         |       previous       |  poutcome  |  deposit  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Count  |               11162  |               11162  |       11162  |    11162  |      11162  |    11162  |               11162  |    11162  |  11162  |     11162  |               11162  |  11162  |               11162  |               11162  |               11162  |               11162  |     11162  |    11162  |
+       sum  |            63416903  |              460231  |              |           |             |           |            17061547  |           |         |            |              174775  |         |             4152195  |               27999  |              572950  |                9293  |            |           |
+      Mean  |              5681.5  |    41.2319476796274  |              |           |             |           |  1528.5385235620836  |           |         |            |  15.658036194230426  |         |   371.9938183121324  |   2.508421429851285  |   51.33040673714394  |  0.8325568894463402  |            |           |
+       Min  |                 101  |                  18  |              |           |             |           |               -6847  |           |         |            |                   1  |         |                   2  |                   1  |                  -1  |                   0  |            |           |
+       Max  |               11262  |                  95  |              |           |             |           |               81204  |           |         |            |                  31  |         |                3881  |                  63  |                 854  |                  58  |            |           |
+     Range  |               11161  |                  77  |              |           |             |           |               88051  |           |         |            |                  30  |         |                3879  |                  62  |                 855  |                  58  |            |           |
+  Variance  |          10383450.5  |  141.92836551002986  |              |           |             |           |     10403291.123191  |           |         |            |   70.90885441746971  |         |  120498.11617000912  |   7.409704182922119  |  11828.363897496092  |   5.253297090437717  |            |           |
+  Std. Dev  |  3222.3361866819546  |   11.91336919221552  |              |           |             |           |   3225.413325946149  |           |         |            |   8.420739541006462  |         |  347.12838571630687  |  2.7220771816614824  |  108.75828197197715  |   2.292007218670508  |            |           |
+    Unique  |                      |                      |          12  |        3  |          4  |        2  |                      |        2  |      2  |         3  |                      |     12  |                      |                      |                      |                      |         4  |        2  |
+       Top  |                      |                      |  management  |  married  |  secondary  |       no  |                      |       no  |     no  |  cellular  |                      |    may  |                      |                      |                      |                      |   unknown  |       no  |
+ Top Freq.  |                      |                      |        2566  |     6351  |       5476  |    10994  |                      |     5881  |   9702  |      8042  |                      |   2824  |                      |                      |                      |                      |      8326  |     5873  |
+775445710

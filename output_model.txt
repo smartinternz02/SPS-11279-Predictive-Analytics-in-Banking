@@ -1,0 +1,1687 @@
+|   |   |   poutcome = failure
+|   |   |   |   pdays <= 395
+|   |   |   |   |   housing = yes
+|   |   |   |   |   |   pdays <= 130
+|   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   month = may: yes (3.0)
+|   |   |   |   |   |   |   |   |   month = jun: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = aug: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   |   |   |   pdays <= 95: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   pdays > 95: no (4.0)
+|   |   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = feb: yes (1.0)
+|   |   |   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = apr: no (1.0)
+|   |   |   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   |   |   loan = yes: yes (3.0)
+|   |   |   |   |   |   |   marital = single: yes (11.0)
+|   |   |   |   |   |   |   marital = divorced: yes (0.0)
+|   |   |   |   |   |   pdays > 130
+|   |   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   |   duration <= 280: no (33.0/1.0)
+|   |   |   |   |   |   |   |   duration > 280
+|   |   |   |   |   |   |   |   |   campaign <= 3
+|   |   |   |   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   |   |   |   job = admin.: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = technician: no (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = services: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = management: no (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   |   |   |   |   loan = no: no (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = entrepreneur: no (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = student: no (0.0)
+|   |   |   |   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   |   |   |   job = admin.: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   |   |   |   |   |   age <= 33: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   age > 33: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   job = services: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   job = management: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = blue-collar: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   marital = divorced: no (3.0)
+|   |   |   |   |   |   |   |   |   campaign > 3: yes (3.0)
+|   |   |   |   |   |   |   month = jun: yes (6.0)
+|   |   |   |   |   |   |   month = jul: yes (1.0)
+|   |   |   |   |   |   |   month = aug: yes (4.0)
+|   |   |   |   |   |   |   month = oct: no (4.0/1.0)
+|   |   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   |   marital = married: no (10.0)
+|   |   |   |   |   |   |   |   marital = single: no (5.0/1.0)
+|   |   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   |   month = dec: yes (2.0)
+|   |   |   |   |   |   |   month = jan
+|   |   |   |   |   |   |   |   marital = married: no (3.0)
+|   |   |   |   |   |   |   |   marital = single: no (2.0)
+|   |   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   |   month = feb
+|   |   |   |   |   |   |   |   marital = married: no (8.0/1.0)
+|   |   |   |   |   |   |   |   marital = single: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   |   month = mar: yes (5.0/1.0)
+|   |   |   |   |   |   |   month = apr
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   previous <= 1: no (9.0)
+|   |   |   |   |   |   |   |   |   previous > 1
+|   |   |   |   |   |   |   |   |   |   job = admin.: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   |   |   |   |   age <= 34: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   age > 34: no (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   job = services: no (4.0)
+|   |   |   |   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   |   |   |   age <= 43: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   age > 43: no (2.0)
+|   |   |   |   |   |   |   |   |   |   job = retired: no (2.0)
+|   |   |   |   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   |   |   |   pdays <= 313: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pdays > 313: no (2.0)
+|   |   |   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   |   |   job = student: no (0.0)
+|   |   |   |   |   |   |   |   loan = yes: no (7.0)
+|   |   |   |   |   |   |   month = sep: yes (2.0/1.0)
+|   |   |   |   |   housing = no
+|   |   |   |   |   |   pdays <= 323
+|   |   |   |   |   |   |   balance <= 68
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   month = may: no (3.0)
+|   |   |   |   |   |   |   |   |   month = jun: yes (1.0)
+|   |   |   |   |   |   |   |   |   month = jul: no (0.0)
+|   |   |   |   |   |   |   |   |   month = aug: no (1.0)
+|   |   |   |   |   |   |   |   |   month = oct: yes (1.0)
+|   |   |   |   |   |   |   |   |   month = nov: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   month = dec: no (0.0)
+|   |   |   |   |   |   |   |   |   month = jan: no (0.0)
+|   |   |   |   |   |   |   |   |   month = feb: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   month = mar: no (0.0)
+|   |   |   |   |   |   |   |   |   month = apr: no (0.0)
+|   |   |   |   |   |   |   |   |   month = sep: no (1.0)
+|   |   |   |   |   |   |   |   loan = yes: no (4.0)
+|   |   |   |   |   |   |   balance > 68
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   day <= 2: no (4.0)
+|   |   |   |   |   |   |   |   |   day > 2
+|   |   |   |   |   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   |   |   |   |   marital = married: yes (7.0)
+|   |   |   |   |   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   |   |   |   |   balance <= 2253: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   balance > 2253: no (3.0)
+|   |   |   |   |   |   |   |   |   |   |   marital = divorced: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   month = jun: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   month = jul: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   month = oct: yes (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   |   |   |   |   job = admin.: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = technician: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = management: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = retired: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = blue-collar: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unemployed: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   |   job = student: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   month = dec: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   month = jan: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = feb: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   month = mar: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   month = sep: yes (3.0)
+|   |   |   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   |   |   job = admin.: yes (7.0)
+|   |   |   |   |   |   |   |   |   job = technician: yes (6.0)
+|   |   |   |   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   |   |   month = may: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = jun: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   month = jul: yes (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = aug: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   month = oct: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   month = nov: yes (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   month = jan: no (1.0)
+|   |   |   |   |   |   |   |   |   |   month = feb: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   month = apr: yes (6.0)
+|   |   |   |   |   |   |   |   |   |   month = sep: yes (4.0)
+|   |   |   |   |   |   |   |   |   job = retired: yes (2.0)
+|   |   |   |   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   job = self-employed: yes (2.0)
+|   |   |   |   |   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   |   |   month = may: yes (1.0)
+|   |   |   |   |   |   |   |   |   month = jun: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = jul: no (1.0)
+|   |   |   |   |   |   |   |   |   month = aug: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   month = oct: yes (5.0)
+|   |   |   |   |   |   |   |   |   month = nov: no (1.0)
+|   |   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = sep: yes (1.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (7.0)
+|   |   |   |   |   |   pdays > 323
+|   |   |   |   |   |   |   month = may: no (5.0)
+|   |   |   |   |   |   |   month = jun: no (0.0)
+|   |   |   |   |   |   |   month = jul: yes (1.0)
+|   |   |   |   |   |   |   month = aug: no (2.0)
+|   |   |   |   |   |   |   month = oct: no (0.0)
+|   |   |   |   |   |   |   month = nov: no (0.0)
+|   |   |   |   |   |   |   month = dec: no (0.0)
+|   |   |   |   |   |   |   month = jan: no (0.0)
+|   |   |   |   |   |   |   month = feb: no (1.0)
+|   |   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   |   month = apr: no (2.0)
+|   |   |   |   |   |   |   month = sep: yes (2.0/1.0)
+|   |   |   |   pdays > 395
+|   |   |   |   |   loan = no: yes (47.0/1.0)
+|   |   |   |   |   loan = yes
+|   |   |   |   |   |   balance <= 900: no (2.0)
+|   |   |   |   |   |   balance > 900: yes (2.0)
+|   |   |   poutcome = success
+|   |   |   |   housing = yes
+|   |   |   |   |   campaign <= 2
+|   |   |   |   |   |   job = admin.: yes (23.0/1.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   previous <= 1
+|   |   |   |   |   |   |   |   day <= 14: no (3.0/1.0)
+|   |   |   |   |   |   |   |   day > 14: yes (2.0)
+|   |   |   |   |   |   |   previous > 1: yes (20.0)
+|   |   |   |   |   |   job = services: yes (8.0/1.0)
+|   |   |   |   |   |   job = management: yes (33.0/3.0)
+|   |   |   |   |   |   job = retired: yes (7.0/1.0)
+|   |   |   |   |   |   job = blue-collar: yes (15.0)
+|   |   |   |   |   |   job = unemployed: yes (2.0)
+|   |   |   |   |   |   job = entrepreneur: no (1.0)
+|   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (3.0)
+|   |   |   |   |   |   job = student: yes (2.0)
+|   |   |   |   |   campaign > 2
+|   |   |   |   |   |   campaign <= 4
+|   |   |   |   |   |   |   job = admin.: yes (3.0/1.0)
+|   |   |   |   |   |   |   job = technician: yes (4.0)
+|   |   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   |   job = management: no (1.0)
+|   |   |   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (3.0)
+|   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   campaign > 4: no (3.0)
+|   |   |   |   housing = no
+|   |   |   |   |   month = may: yes (33.0/1.0)
+|   |   |   |   |   month = jun: yes (37.0/3.0)
+|   |   |   |   |   month = jul: yes (31.0)
+|   |   |   |   |   month = aug: yes (49.0/1.0)
+|   |   |   |   |   month = oct: yes (33.0/1.0)
+|   |   |   |   |   month = nov
+|   |   |   |   |   |   job = admin.: yes (1.0)
+|   |   |   |   |   |   job = technician: yes (5.0/1.0)
+|   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   age <= 34: no (2.0)
+|   |   |   |   |   |   |   age > 34: yes (4.0)
+|   |   |   |   |   |   job = retired: yes (2.0)
+|   |   |   |   |   |   job = blue-collar: yes (2.0)
+|   |   |   |   |   |   job = unemployed: yes (1.0)
+|   |   |   |   |   |   job = entrepreneur: yes (2.0)
+|   |   |   |   |   |   job = housemaid: yes (1.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (2.0)
+|   |   |   |   |   |   job = student: yes (4.0)
+|   |   |   |   |   month = dec: yes (16.0)
+|   |   |   |   |   month = jan: yes (13.0)
+|   |   |   |   |   month = feb: yes (38.0)
+|   |   |   |   |   month = mar: yes (18.0)
+|   |   |   |   |   month = apr: yes (28.0)
+|   |   |   |   |   month = sep: yes (43.0)
+|   |   contact = telephone
+|   |   |   age <= 59
+|   |   |   |   campaign <= 1
+|   |   |   |   |   poutcome = unknown
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   month = may: yes (0.0)
+|   |   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   |   balance <= 5127: no (4.0)
+|   |   |   |   |   |   |   |   balance > 5127: yes (2.0)
+|   |   |   |   |   |   |   month = aug: yes (1.0)
+|   |   |   |   |   |   |   month = oct: yes (5.0)
+|   |   |   |   |   |   |   month = nov: yes (6.0/1.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (1.0)
+|   |   |   |   |   |   |   month = sep: yes (1.0)
+|   |   |   |   |   |   education = tertiary: yes (7.0)
+|   |   |   |   |   |   education = primary: yes (4.0/1.0)
+|   |   |   |   |   |   education = unknown: no (2.0)
+|   |   |   |   |   poutcome = other: no (6.0/1.0)
+|   |   |   |   |   poutcome = failure
+|   |   |   |   |   |   month = may: yes (0.0)
+|   |   |   |   |   |   month = jun: yes (1.0)
+|   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   month = nov: no (1.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   month = feb: yes (3.0)
+|   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   poutcome = success: yes (8.0)
+|   |   |   |   campaign > 1
+|   |   |   |   |   previous <= 0
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   job = admin.: no (0.0)
+|   |   |   |   |   |   |   |   job = technician: no (1.0)
+|   |   |   |   |   |   |   |   job = services: no (2.0)
+|   |   |   |   |   |   |   |   job = management: no (0.0)
+|   |   |   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   |   |   job = blue-collar: no (2.0)
+|   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   job = entrepreneur: no (0.0)
+|   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   |   |   |   education = tertiary: no (3.0/1.0)
+|   |   |   |   |   |   |   education = primary: yes (1.0)
+|   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   month = jun: yes (4.0/2.0)
+|   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   marital = married: no (29.0/3.0)
+|   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   day <= 10: yes (3.0)
+|   |   |   |   |   |   |   |   day > 10: no (2.0)
+|   |   |   |   |   |   |   marital = divorced: no (2.0)
+|   |   |   |   |   |   month = aug: no (4.0/1.0)
+|   |   |   |   |   |   month = oct: no (1.0)
+|   |   |   |   |   |   month = nov: no (4.0)
+|   |   |   |   |   |   month = dec: no (1.0)
+|   |   |   |   |   |   month = jan: no (3.0)
+|   |   |   |   |   |   month = feb
+|   |   |   |   |   |   |   housing = yes: yes (2.0)
+|   |   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   |   duration <= 382: no (5.0)
+|   |   |   |   |   |   |   |   duration > 382: yes (3.0)
+|   |   |   |   |   |   month = mar: yes (2.0)
+|   |   |   |   |   |   month = apr: no (6.0)
+|   |   |   |   |   |   month = sep: yes (5.0)
+|   |   |   |   |   previous > 0
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   poutcome = unknown: no (0.0)
+|   |   |   |   |   |   |   poutcome = other: no (2.0)
+|   |   |   |   |   |   |   poutcome = failure: no (3.0/1.0)
+|   |   |   |   |   |   |   poutcome = success: yes (3.0/1.0)
+|   |   |   |   |   |   month = jun: yes (2.0)
+|   |   |   |   |   |   month = jul: yes (4.0)
+|   |   |   |   |   |   month = aug: yes (0.0)
+|   |   |   |   |   |   month = oct: yes (3.0)
+|   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   balance <= 4718: no (2.0)
+|   |   |   |   |   |   |   balance > 4718: yes (2.0)
+|   |   |   |   |   |   month = dec: yes (2.0)
+|   |   |   |   |   |   month = jan: yes (2.0/1.0)
+|   |   |   |   |   |   month = feb: yes (2.0/1.0)
+|   |   |   |   |   |   month = mar: yes (3.0)
+|   |   |   |   |   |   month = apr: yes (5.0/1.0)
+|   |   |   |   |   |   month = sep: yes (2.0)
+|   |   |   age > 59
+|   |   |   |   month = may: yes (6.0)
+|   |   |   |   month = jun: yes (4.0)
+|   |   |   |   month = jul: yes (11.0)
+|   |   |   |   month = aug
+|   |   |   |   |   education = secondary: yes (2.0)
+|   |   |   |   |   education = tertiary: yes (4.0)
+|   |   |   |   |   education = primary
+|   |   |   |   |   |   balance <= 2406: no (3.0)
+|   |   |   |   |   |   balance > 2406: yes (2.0)
+|   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   month = oct: yes (8.0/1.0)
+|   |   |   |   month = nov
+|   |   |   |   |   education = secondary: yes (1.0)
+|   |   |   |   |   education = tertiary: yes (2.0)
+|   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   education = unknown: no (2.0)
+|   |   |   |   month = dec: yes (4.0)
+|   |   |   |   month = jan: yes (5.0/1.0)
+|   |   |   |   month = feb: yes (9.0)
+|   |   |   |   month = mar: yes (5.0)
+|   |   |   |   month = apr: yes (11.0)
+|   |   |   |   month = sep: yes (8.0/2.0)
+|   duration > 472
+|   |   duration <= 668
+|   |   |   contact = unknown
+|   |   |   |   month = may
+|   |   |   |   |   marital = married
+|   |   |   |   |   |   job = admin.
+|   |   |   |   |   |   |   balance <= 647
+|   |   |   |   |   |   |   |   loan = no: yes (4.0)
+|   |   |   |   |   |   |   |   loan = yes: no (4.0/1.0)
+|   |   |   |   |   |   |   balance > 647: no (4.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   duration <= 526: no (3.0)
+|   |   |   |   |   |   |   duration > 526
+|   |   |   |   |   |   |   |   duration <= 615: yes (3.0)
+|   |   |   |   |   |   |   |   duration > 615: no (2.0)
+|   |   |   |   |   |   job = services: no (3.0/1.0)
+|   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   age <= 39: yes (3.0/1.0)
+|   |   |   |   |   |   |   age > 39: no (3.0)
+|   |   |   |   |   |   job = retired
+|   |   |   |   |   |   |   education = secondary: no (2.0)
+|   |   |   |   |   |   |   education = tertiary: yes (1.0)
+|   |   |   |   |   |   |   education = primary: no (2.0)
+|   |   |   |   |   |   |   education = unknown: no (0.0)
+|   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   age <= 31: no (6.0)
+|   |   |   |   |   |   |   age > 31
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   campaign <= 3
+|   |   |   |   |   |   |   |   |   |   day <= 13: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   day > 13: yes (5.0)
+|   |   |   |   |   |   |   |   |   campaign > 3: no (2.0)
+|   |   |   |   |   |   |   |   education = tertiary: yes (0.0)
+|   |   |   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   |   |   balance <= 277: no (3.0)
+|   |   |   |   |   |   |   |   |   balance > 277: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   job = entrepreneur
+|   |   |   |   |   |   |   campaign <= 7: no (3.0)
+|   |   |   |   |   |   |   campaign > 7: yes (2.0)
+|   |   |   |   |   |   job = housemaid: no (1.0)
+|   |   |   |   |   |   job = unknown: yes (1.0)
+|   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   job = student: no (0.0)
+|   |   |   |   |   marital = single
+|   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   age <= 42
+|   |   |   |   |   |   |   |   day <= 27
+|   |   |   |   |   |   |   |   |   job = admin.: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   job = technician: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   |   |   campaign <= 1: no (2.0)
+|   |   |   |   |   |   |   |   |   |   campaign > 1
+|   |   |   |   |   |   |   |   |   |   |   campaign <= 2: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   campaign > 2: no (2.0)
+|   |   |   |   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   |   |   day <= 12: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   day > 12: no (4.0/1.0)
+|   |   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = entrepreneur: no (0.0)
+|   |   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = student: no (1.0)
+|   |   |   |   |   |   |   |   day > 27: yes (6.0)
+|   |   |   |   |   |   |   age > 42: no (5.0)
+|   |   |   |   |   |   housing = no: no (2.0)
+|   |   |   |   |   marital = divorced
+|   |   |   |   |   |   duration <= 582
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   day <= 21
+|   |   |   |   |   |   |   |   |   age <= 47: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   age > 47: yes (2.0)
+|   |   |   |   |   |   |   |   day > 21: no (3.0)
+|   |   |   |   |   |   |   housing = no: no (2.0)
+|   |   |   |   |   |   duration > 582: yes (10.0/1.0)
+|   |   |   |   month = jun
+|   |   |   |   |   job = admin.
+|   |   |   |   |   |   marital = married: no (3.0)
+|   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   balance <= 644: no (2.0)
+|   |   |   |   |   |   |   balance > 644: yes (5.0/1.0)
+|   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   job = technician
+|   |   |   |   |   |   housing = yes: yes (4.0)
+|   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   education = secondary: no (3.0/1.0)
+|   |   |   |   |   |   |   education = tertiary: yes (2.0)
+|   |   |   |   |   |   |   education = primary: yes (0.0)
+|   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   job = services: yes (5.0)
+|   |   |   |   |   job = management
+|   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   duration <= 509: no (3.0)
+|   |   |   |   |   |   |   duration > 509
+|   |   |   |   |   |   |   |   day <= 7: no (3.0/1.0)
+|   |   |   |   |   |   |   |   day > 7: yes (6.0)
+|   |   |   |   |   |   marital = single: yes (2.0)
+|   |   |   |   |   |   marital = divorced: yes (3.0/1.0)
+|   |   |   |   |   job = retired
+|   |   |   |   |   |   age <= 53: yes (2.0)
+|   |   |   |   |   |   age > 53: no (2.0)
+|   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   default = no
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   |   |   balance <= 110: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   balance > 110: no (2.0)
+|   |   |   |   |   |   |   |   |   marital = single: yes (3.0)
+|   |   |   |   |   |   |   |   |   marital = divorced: yes (0.0)
+|   |   |   |   |   |   |   |   education = tertiary: yes (1.0)
+|   |   |   |   |   |   |   |   education = primary: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (2.0/1.0)
+|   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   default = yes: yes (2.0)
+|   |   |   |   |   job = unemployed: yes (3.0)
+|   |   |   |   |   job = entrepreneur
+|   |   |   |   |   |   marital = married: no (2.0)
+|   |   |   |   |   |   marital = single: yes (1.0)
+|   |   |   |   |   |   marital = divorced: no (2.0)
+|   |   |   |   |   job = housemaid: no (2.0)
+|   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   job = self-employed: yes (5.0/1.0)
+|   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   month = jul
+|   |   |   |   |   campaign <= 2
+|   |   |   |   |   |   loan = no: yes (3.0/1.0)
+|   |   |   |   |   |   loan = yes: no (3.0)
+|   |   |   |   |   campaign > 2: yes (2.0)
+|   |   |   |   month = aug: yes (1.0)
+|   |   |   |   month = oct: yes (1.0)
+|   |   |   |   month = nov: yes (0.0)
+|   |   |   |   month = dec: yes (0.0)
+|   |   |   |   month = jan: yes (0.0)
+|   |   |   |   month = feb: yes (0.0)
+|   |   |   |   month = mar: yes (1.0)
+|   |   |   |   month = apr: yes (1.0)
+|   |   |   |   month = sep: yes (0.0)
+|   |   |   contact = cellular
+|   |   |   |   poutcome = unknown
+|   |   |   |   |   month = may
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   day <= 9
+|   |   |   |   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   |   |   |   age <= 33: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   age > 33: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   job = services: no (4.0)
+|   |   |   |   |   |   |   |   |   job = management: no (0.0)
+|   |   |   |   |   |   |   |   |   job = retired: no (1.0)
+|   |   |   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   |   |   campaign <= 2: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   |   campaign > 2: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   loan = yes: no (2.0)
+|   |   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = entrepreneur: no (0.0)
+|   |   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = student: no (1.0)
+|   |   |   |   |   |   |   |   day > 9
+|   |   |   |   |   |   |   |   |   campaign <= 1: yes (18.0)
+|   |   |   |   |   |   |   |   |   campaign > 1
+|   |   |   |   |   |   |   |   |   |   job = admin.
+|   |   |   |   |   |   |   |   |   |   |   balance <= 534: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   balance > 534: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   job = technician: no (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   job = services: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   job = management: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   job = blue-collar: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   |   housing = no: yes (6.0)
+|   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   |   job = technician: yes (8.0)
+|   |   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   age <= 35: yes (14.0)
+|   |   |   |   |   |   |   |   age > 35
+|   |   |   |   |   |   |   |   |   balance <= 292: yes (4.0)
+|   |   |   |   |   |   |   |   |   balance > 292: no (4.0/1.0)
+|   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   |   |   job = student: yes (2.0)
+|   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   job = admin.: yes (0.0)
+|   |   |   |   |   |   |   job = technician: yes (0.0)
+|   |   |   |   |   |   |   job = services: yes (3.0/1.0)
+|   |   |   |   |   |   |   job = management: yes (0.0)
+|   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   day <= 12: no (2.0)
+|   |   |   |   |   |   |   |   day > 12: yes (6.0/1.0)
+|   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   job = housemaid: yes (1.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   education = unknown: yes (4.0)
+|   |   |   |   |   month = jun: yes (23.0)
+|   |   |   |   |   month = jul
+|   |   |   |   |   |   job = admin.
+|   |   |   |   |   |   |   duration <= 551: no (5.0)
+|   |   |   |   |   |   |   duration > 551: yes (12.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   marital = married: yes (7.0/2.0)
+|   |   |   |   |   |   |   |   marital = single: yes (5.0/1.0)
+|   |   |   |   |   |   |   |   marital = divorced: no (3.0/1.0)
+|   |   |   |   |   |   |   education = tertiary: yes (4.0)
+|   |   |   |   |   |   |   education = primary: yes (0.0)
+|   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   job = services
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   |   campaign <= 2: no (2.0)
+|   |   |   |   |   |   |   |   |   campaign > 2: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   |   balance <= -11: yes (2.0)
+|   |   |   |   |   |   |   |   |   balance > -11: no (3.0)
+|   |   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   |   education = tertiary: yes (1.0)
+|   |   |   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   |   |   education = unknown: yes (2.0/1.0)
+|   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   balance <= 1559
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   campaign <= 7
+|   |   |   |   |   |   |   |   |   |   age <= 32: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   age > 32: no (12.0)
+|   |   |   |   |   |   |   |   |   campaign > 7: yes (2.0)
+|   |   |   |   |   |   |   |   loan = yes: yes (7.0/1.0)
+|   |   |   |   |   |   |   balance > 1559: yes (8.0)
+|   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   housing = yes: yes (17.0)
+|   |   |   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   |   |   marital = married: yes (2.0)
+|   |   |   |   |   |   |   |   |   marital = single: no (1.0)
+|   |   |   |   |   |   |   |   |   marital = divorced: yes (2.0)
+|   |   |   |   |   |   |   loan = yes
+|   |   |   |   |   |   |   |   default = no
+|   |   |   |   |   |   |   |   |   balance <= 33: yes (4.0)
+|   |   |   |   |   |   |   |   |   balance > 33: no (5.0/1.0)
+|   |   |   |   |   |   |   |   default = yes: yes (2.0)
+|   |   |   |   |   |   job = unemployed
+|   |   |   |   |   |   |   duration <= 606: yes (3.0)
+|   |   |   |   |   |   |   duration > 606: no (2.0)
+|   |   |   |   |   |   job = entrepreneur
+|   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   balance <= 214: yes (3.0)
+|   |   |   |   |   |   |   |   balance > 214: no (2.0)
+|   |   |   |   |   |   |   marital = single: no (2.0)
+|   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   job = housemaid
+|   |   |   |   |   |   |   age <= 43: no (2.0)
+|   |   |   |   |   |   |   age > 43: yes (2.0)
+|   |   |   |   |   |   job = unknown: no (1.0)
+|   |   |   |   |   |   job = self-employed: yes (8.0/2.0)
+|   |   |   |   |   |   job = student: yes (4.0)
+|   |   |   |   |   month = aug
+|   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   education = secondary: yes (16.0/2.0)
+|   |   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   |   day <= 9: yes (6.0)
+|   |   |   |   |   |   |   |   day > 9
+|   |   |   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   |   |   campaign <= 3: no (3.0)
+|   |   |   |   |   |   |   |   |   |   campaign > 3: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   |   |   age <= 33: no (2.0)
+|   |   |   |   |   |   |   |   |   |   age > 33: yes (2.0)
+|   |   |   |   |   |   |   |   |   marital = divorced: yes (1.0)
+|   |   |   |   |   |   |   education = primary: yes (0.0)
+|   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   job = services
+|   |   |   |   |   |   |   age <= 47: yes (2.0)
+|   |   |   |   |   |   |   age > 47: no (2.0)
+|   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   housing = yes: no (5.0/1.0)
+|   |   |   |   |   |   |   housing = no: yes (31.0/6.0)
+|   |   |   |   |   |   job = retired: yes (13.0/1.0)
+|   |   |   |   |   |   job = blue-collar: yes (12.0)
+|   |   |   |   |   |   job = unemployed: yes (5.0)
+|   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   job = housemaid: yes (4.0/1.0)
+|   |   |   |   |   |   job = unknown: yes (2.0)
+|   |   |   |   |   |   job = self-employed: yes (7.0/1.0)
+|   |   |   |   |   |   job = student: yes (2.0/1.0)
+|   |   |   |   |   month = oct: yes (11.0/2.0)
+|   |   |   |   |   month = nov
+|   |   |   |   |   |   day <= 20
+|   |   |   |   |   |   |   job = admin.: no (7.0/1.0)
+|   |   |   |   |   |   |   job = technician: yes (7.0/2.0)
+|   |   |   |   |   |   |   job = services: yes (4.0/1.0)
+|   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   |   age <= 41: no (4.0/1.0)
+|   |   |   |   |   |   |   |   |   age > 41: yes (4.0)
+|   |   |   |   |   |   |   |   housing = no: no (5.0/1.0)
+|   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (3.0/1.0)
+|   |   |   |   |   |   |   job = unemployed: no (4.0/1.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (3.0/1.0)
+|   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (2.0/1.0)
+|   |   |   |   |   |   |   job = student: no (1.0)
+|   |   |   |   |   |   day > 20
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   |   |   job = technician: yes (1.0)
+|   |   |   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   |   |   job = management: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   job = self-employed: no (3.0/1.0)
+|   |   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   |   housing = no: yes (12.0)
+|   |   |   |   |   month = dec: yes (3.0)
+|   |   |   |   |   month = jan
+|   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   job = technician: no (1.0)
+|   |   |   |   |   |   job = services: no (1.0)
+|   |   |   |   |   |   job = management: yes (3.0/1.0)
+|   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   job = blue-collar: no (2.0)
+|   |   |   |   |   |   job = unemployed: no (1.0)
+|   |   |   |   |   |   job = entrepreneur: no (1.0)
+|   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   |   month = feb
+|   |   |   |   |   |   campaign <= 2
+|   |   |   |   |   |   |   job = admin.: no (2.0)
+|   |   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   |   age <= 43: yes (4.0)
+|   |   |   |   |   |   |   |   age > 43: no (2.0)
+|   |   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   |   housing = yes: yes (2.0)
+|   |   |   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   |   |   day <= 5
+|   |   |   |   |   |   |   |   |   |   duration <= 516: no (2.0)
+|   |   |   |   |   |   |   |   |   |   duration > 516: yes (2.0)
+|   |   |   |   |   |   |   |   |   day > 5: yes (2.0)
+|   |   |   |   |   |   |   job = retired: yes (6.0/1.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (2.0/1.0)
+|   |   |   |   |   |   |   job = unemployed: yes (2.0/1.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   |   |   campaign > 2: yes (9.0)
+|   |   |   |   |   month = mar
+|   |   |   |   |   |   age <= 57: yes (8.0)
+|   |   |   |   |   |   age > 57: no (2.0)
+|   |   |   |   |   month = apr
+|   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   day <= 16: no (5.0)
+|   |   |   |   |   |   |   |   day > 16
+|   |   |   |   |   |   |   |   |   age <= 32: no (2.0)
+|   |   |   |   |   |   |   |   |   age > 32: yes (10.0/2.0)
+|   |   |   |   |   |   |   marital = single
+|   |   |   |   |   |   |   |   campaign <= 1: yes (5.0)
+|   |   |   |   |   |   |   |   campaign > 1: no (3.0/1.0)
+|   |   |   |   |   |   |   marital = divorced: no (2.0)
+|   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   marital = married
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   balance <= 738: yes (6.0)
+|   |   |   |   |   |   |   |   |   balance > 738: no (5.0/1.0)
+|   |   |   |   |   |   |   |   education = tertiary: yes (5.0)
+|   |   |   |   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   |   marital = single: yes (17.0)
+|   |   |   |   |   |   |   marital = divorced: yes (2.0)
+|   |   |   |   |   month = sep
+|   |   |   |   |   |   education = secondary: yes (4.0)
+|   |   |   |   |   |   education = tertiary: yes (7.0/1.0)
+|   |   |   |   |   |   education = primary: yes (2.0/1.0)
+|   |   |   |   |   |   education = unknown: no (1.0)
+|   |   |   |   poutcome = other
+|   |   |   |   |   job = admin.: yes (9.0)
+|   |   |   |   |   job = technician
+|   |   |   |   |   |   housing = yes: no (3.0)
+|   |   |   |   |   |   housing = no: yes (5.0/1.0)
+|   |   |   |   |   job = services: yes (4.0)
+|   |   |   |   |   job = management: yes (13.0/2.0)
+|   |   |   |   |   job = retired: yes (4.0)
+|   |   |   |   |   job = blue-collar: yes (8.0/1.0)
+|   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   job = housemaid: no (1.0)
+|   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   job = self-employed: yes (4.0)
+|   |   |   |   |   job = student: yes (3.0)
+|   |   |   |   poutcome = failure
+|   |   |   |   |   marital = married
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   loan = no: yes (13.0/1.0)
+|   |   |   |   |   |   |   loan = yes: no (3.0/1.0)
+|   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   month = jul: yes (3.0)
+|   |   |   |   |   |   month = aug: yes (4.0/1.0)
+|   |   |   |   |   |   month = oct
+|   |   |   |   |   |   |   age <= 60: yes (3.0)
+|   |   |   |   |   |   |   age > 60: no (2.0)
+|   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   pdays <= 168: yes (10.0/1.0)
+|   |   |   |   |   |   |   pdays > 168: no (5.0)
+|   |   |   |   |   |   month = dec: yes (2.0/1.0)
+|   |   |   |   |   |   month = jan: yes (1.0)
+|   |   |   |   |   |   month = feb
+|   |   |   |   |   |   |   pdays <= 197: yes (6.0/1.0)
+|   |   |   |   |   |   |   pdays > 197: no (2.0)
+|   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   month = apr
+|   |   |   |   |   |   |   job = admin.: no (2.0)
+|   |   |   |   |   |   |   job = technician: yes (2.0/1.0)
+|   |   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   |   job = management: yes (4.0/1.0)
+|   |   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   |   job = blue-collar: no (4.0/1.0)
+|   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: no (1.0)
+|   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   job = student: no (0.0)
+|   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   marital = single
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   job = admin.: yes (2.0/1.0)
+|   |   |   |   |   |   |   job = technician: yes (3.0)
+|   |   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   |   job = management: no (1.0)
+|   |   |   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (2.0)
+|   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   month = oct: yes (2.0)
+|   |   |   |   |   |   month = nov: yes (3.0/1.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   month = feb: yes (3.0)
+|   |   |   |   |   |   month = mar: yes (2.0)
+|   |   |   |   |   |   month = apr: yes (6.0)
+|   |   |   |   |   |   month = sep: yes (3.0/1.0)
+|   |   |   |   |   marital = divorced
+|   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   pdays <= 340: no (4.0)
+|   |   |   |   |   |   |   pdays > 340: yes (3.0/1.0)
+|   |   |   |   |   |   housing = no: yes (2.0)
+|   |   |   |   poutcome = success
+|   |   |   |   |   marital = married: yes (53.0)
+|   |   |   |   |   marital = single
+|   |   |   |   |   |   job = admin.: yes (2.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   age <= 32: no (3.0/1.0)
+|   |   |   |   |   |   |   |   age > 32: yes (2.0)
+|   |   |   |   |   |   |   housing = no: yes (4.0)
+|   |   |   |   |   |   job = services: yes (1.0)
+|   |   |   |   |   |   job = management: yes (17.0/1.0)
+|   |   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   |   job = blue-collar: yes (7.0)
+|   |   |   |   |   |   job = unemployed: yes (1.0)
+|   |   |   |   |   |   job = entrepreneur: yes (1.0)
+|   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   job = student: no (4.0/1.0)
+|   |   |   |   |   marital = divorced: yes (14.0)
+|   |   |   contact = telephone
+|   |   |   |   loan = no
+|   |   |   |   |   job = admin.: yes (6.0)
+|   |   |   |   |   job = technician: yes (4.0/1.0)
+|   |   |   |   |   job = services: no (1.0)
+|   |   |   |   |   job = management: yes (8.0)
+|   |   |   |   |   job = retired: yes (25.0/2.0)
+|   |   |   |   |   job = blue-collar: yes (5.0)
+|   |   |   |   |   job = unemployed: yes (1.0)
+|   |   |   |   |   job = entrepreneur: yes (2.0)
+|   |   |   |   |   job = housemaid: yes (2.0)
+|   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   job = student: yes (4.0)
+|   |   |   |   loan = yes
+|   |   |   |   |   age <= 49
+|   |   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   |   job = technician: yes (1.0)
+|   |   |   |   |   |   job = services: no (1.0)
+|   |   |   |   |   |   job = management: yes (2.0)
+|   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   age > 49: no (3.0)
+|   |   duration > 668
+|   |   |   poutcome = unknown
+|   |   |   |   marital = married
+|   |   |   |   |   job = admin.
+|   |   |   |   |   |   housing = yes: yes (38.0/1.0)
+|   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   month = may: yes (3.0)
+|   |   |   |   |   |   |   month = jun
+|   |   |   |   |   |   |   |   age <= 44: no (3.0/1.0)
+|   |   |   |   |   |   |   |   age > 44: yes (5.0)
+|   |   |   |   |   |   |   month = jul: yes (5.0/1.0)
+|   |   |   |   |   |   |   month = aug: yes (7.0)
+|   |   |   |   |   |   |   month = oct: no (1.0)
+|   |   |   |   |   |   |   month = nov: yes (1.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   month = feb: yes (3.0/1.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (2.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   job = technician
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   contact = unknown
+|   |   |   |   |   |   |   |   month = may: yes (11.0)
+|   |   |   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   |   |   month = aug: yes (0.0)
+|   |   |   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   |   |   month = nov: yes (0.0)
+|   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   |   month = feb: no (1.0)
+|   |   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   |   contact = cellular: yes (55.0/5.0)
+|   |   |   |   |   |   |   contact = telephone: yes (2.0/1.0)
+|   |   |   |   |   |   education = tertiary: yes (29.0/2.0)
+|   |   |   |   |   |   education = primary: yes (4.0/1.0)
+|   |   |   |   |   |   education = unknown: no (1.0)
+|   |   |   |   |   job = services
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   contact = unknown
+|   |   |   |   |   |   |   |   |   day <= 23
+|   |   |   |   |   |   |   |   |   |   campaign <= 1
+|   |   |   |   |   |   |   |   |   |   |   duration <= 1110: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   duration > 1110: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   campaign > 1: no (3.0)
+|   |   |   |   |   |   |   |   |   day > 23: yes (4.0)
+|   |   |   |   |   |   |   |   contact = cellular: yes (9.0/1.0)
+|   |   |   |   |   |   |   |   contact = telephone: yes (0.0)
+|   |   |   |   |   |   |   education = tertiary: no (1.0)
+|   |   |   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   month = jun
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   day <= 17: yes (3.0)
+|   |   |   |   |   |   |   |   day > 17: no (2.0)
+|   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   contact = unknown: yes (1.0)
+|   |   |   |   |   |   |   contact = cellular
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   age <= 30: yes (5.0)
+|   |   |   |   |   |   |   |   |   age > 30
+|   |   |   |   |   |   |   |   |   |   age <= 35: no (3.0)
+|   |   |   |   |   |   |   |   |   |   age > 35
+|   |   |   |   |   |   |   |   |   |   |   campaign <= 5: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   |   campaign > 5: no (3.0/1.0)
+|   |   |   |   |   |   |   |   education = tertiary: yes (0.0)
+|   |   |   |   |   |   |   |   education = primary: yes (1.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (3.0/1.0)
+|   |   |   |   |   |   |   contact = telephone: yes (2.0)
+|   |   |   |   |   |   month = aug: yes (8.0)
+|   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   month = nov: yes (6.0/1.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (1.0)
+|   |   |   |   |   |   month = feb: yes (4.0/1.0)
+|   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   month = apr
+|   |   |   |   |   |   |   duration <= 908: no (2.0)
+|   |   |   |   |   |   |   duration > 908: yes (3.0)
+|   |   |   |   |   |   month = sep: yes (1.0)
+|   |   |   |   |   job = management
+|   |   |   |   |   |   contact = unknown
+|   |   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   |   duration <= 946: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   duration > 946: no (2.0)
+|   |   |   |   |   |   |   |   |   loan = yes: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   |   |   age <= 31: yes (2.0)
+|   |   |   |   |   |   |   |   |   age > 31: no (2.0)
+|   |   |   |   |   |   |   month = jun: yes (12.0/1.0)
+|   |   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   |   month = aug: yes (0.0)
+|   |   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   |   month = nov: yes (0.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   contact = cellular
+|   |   |   |   |   |   |   month = may: yes (11.0)
+|   |   |   |   |   |   |   month = jun: yes (2.0)
+|   |   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   |   day <= 24: yes (17.0)
+|   |   |   |   |   |   |   |   day > 24
+|   |   |   |   |   |   |   |   |   age <= 53: no (5.0/1.0)
+|   |   |   |   |   |   |   |   |   age > 53: yes (2.0)
+|   |   |   |   |   |   |   month = aug
+|   |   |   |   |   |   |   |   campaign <= 4: yes (30.0)
+|   |   |   |   |   |   |   |   campaign > 4
+|   |   |   |   |   |   |   |   |   balance <= 706
+|   |   |   |   |   |   |   |   |   |   duration <= 926: no (3.0)
+|   |   |   |   |   |   |   |   |   |   duration > 926: yes (2.0)
+|   |   |   |   |   |   |   |   |   balance > 706: yes (6.0)
+|   |   |   |   |   |   |   month = oct: yes (1.0)
+|   |   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   day <= 18: yes (5.0)
+|   |   |   |   |   |   |   |   |   day > 18
+|   |   |   |   |   |   |   |   |   |   day <= 20
+|   |   |   |   |   |   |   |   |   |   |   day <= 19
+|   |   |   |   |   |   |   |   |   |   |   |   age <= 54: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   age > 54: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   day > 19: no (2.0)
+|   |   |   |   |   |   |   |   |   |   day > 20: yes (2.0)
+|   |   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   |   month = dec: yes (1.0)
+|   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   month = feb: yes (5.0/1.0)
+|   |   |   |   |   |   |   month = mar: yes (2.0)
+|   |   |   |   |   |   |   month = apr: yes (7.0/1.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   contact = telephone
+|   |   |   |   |   |   |   day <= 25: yes (6.0)
+|   |   |   |   |   |   |   day > 25: no (4.0/1.0)
+|   |   |   |   |   job = retired
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   month = may: yes (2.0)
+|   |   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   |   month = jul: yes (3.0)
+|   |   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   |   month = oct: no (1.0)
+|   |   |   |   |   |   |   month = nov: yes (5.0/1.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (1.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   campaign <= 4: yes (10.0/2.0)
+|   |   |   |   |   |   |   campaign > 4: no (2.0)
+|   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   duration <= 814: no (3.0/1.0)
+|   |   |   |   |   |   |   duration > 814: yes (12.0)
+|   |   |   |   |   |   education = unknown: yes (8.0)
+|   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   contact = unknown
+|   |   |   |   |   |   |   |   day <= 7
+|   |   |   |   |   |   |   |   |   duration <= 1100: no (5.0)
+|   |   |   |   |   |   |   |   |   duration > 1100: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   day > 7
+|   |   |   |   |   |   |   |   |   education = secondary: yes (26.0/2.0)
+|   |   |   |   |   |   |   |   |   education = tertiary: no (1.0)
+|   |   |   |   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   |   |   |   balance <= -249: no (2.0)
+|   |   |   |   |   |   |   |   |   |   balance > -249: yes (18.0/2.0)
+|   |   |   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   |   contact = cellular: yes (26.0/1.0)
+|   |   |   |   |   |   |   contact = telephone: yes (3.0/1.0)
+|   |   |   |   |   |   month = jun
+|   |   |   |   |   |   |   campaign <= 1
+|   |   |   |   |   |   |   |   age <= 38: yes (3.0)
+|   |   |   |   |   |   |   |   age > 38: no (3.0/1.0)
+|   |   |   |   |   |   |   campaign > 1: yes (17.0)
+|   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   balance <= 361: yes (20.0/1.0)
+|   |   |   |   |   |   |   balance > 361
+|   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   contact = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   contact = cellular
+|   |   |   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   |   |   campaign <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   age <= 35: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   age > 35: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   campaign > 1: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   education = tertiary: yes (1.0)
+|   |   |   |   |   |   |   |   |   |   education = primary
+|   |   |   |   |   |   |   |   |   |   |   age <= 37: no (3.0)
+|   |   |   |   |   |   |   |   |   |   |   age > 37: yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   education = unknown: no (1.0)
+|   |   |   |   |   |   |   |   |   contact = telephone: yes (2.0)
+|   |   |   |   |   |   |   |   loan = yes: no (4.0/1.0)
+|   |   |   |   |   |   month = aug
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   campaign <= 2: yes (3.0)
+|   |   |   |   |   |   |   |   campaign > 2
+|   |   |   |   |   |   |   |   |   balance <= 1336: no (2.0)
+|   |   |   |   |   |   |   |   |   balance > 1336: yes (2.0)
+|   |   |   |   |   |   |   education = tertiary: yes (0.0)
+|   |   |   |   |   |   |   education = primary: yes (10.0)
+|   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   month = oct: yes (3.0/1.0)
+|   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   duration <= 916
+|   |   |   |   |   |   |   |   |   campaign <= 1: yes (2.0)
+|   |   |   |   |   |   |   |   |   campaign > 1: no (4.0/1.0)
+|   |   |   |   |   |   |   |   duration > 916: yes (8.0)
+|   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (3.0/1.0)
+|   |   |   |   |   |   month = feb
+|   |   |   |   |   |   |   campaign <= 2: yes (5.0/1.0)
+|   |   |   |   |   |   |   campaign > 2: no (2.0)
+|   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   month = apr
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   age <= 39: yes (6.0)
+|   |   |   |   |   |   |   |   age > 39
+|   |   |   |   |   |   |   |   |   age <= 44: no (4.0)
+|   |   |   |   |   |   |   |   |   age > 44: yes (4.0/1.0)
+|   |   |   |   |   |   |   loan = yes: yes (4.0)
+|   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   job = unemployed
+|   |   |   |   |   |   month = may: yes (1.0)
+|   |   |   |   |   |   month = jun: yes (3.0)
+|   |   |   |   |   |   month = jul: yes (5.0)
+|   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   day <= 20: no (3.0)
+|   |   |   |   |   |   |   day > 20: yes (2.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (1.0)
+|   |   |   |   |   |   month = feb: yes (4.0/1.0)
+|   |   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   |   month = apr: yes (4.0)
+|   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   job = entrepreneur
+|   |   |   |   |   |   housing = yes: yes (14.0)
+|   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   campaign <= 1
+|   |   |   |   |   |   |   |   contact = unknown: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   contact = cellular: no (2.0)
+|   |   |   |   |   |   |   |   contact = telephone: no (0.0)
+|   |   |   |   |   |   |   campaign > 1: yes (12.0)
+|   |   |   |   |   job = housemaid
+|   |   |   |   |   |   contact = unknown
+|   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   education = secondary: yes (2.0)
+|   |   |   |   |   |   |   |   education = tertiary: no (2.0)
+|   |   |   |   |   |   |   |   education = primary: no (4.0/1.0)
+|   |   |   |   |   |   |   |   education = unknown: no (0.0)
+|   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   contact = cellular: yes (11.0/1.0)
+|   |   |   |   |   |   contact = telephone: yes (2.0)
+|   |   |   |   |   job = unknown: yes (3.0/1.0)
+|   |   |   |   |   job = self-employed
+|   |   |   |   |   |   month = may: no (2.0)
+|   |   |   |   |   |   month = jun: yes (4.0)
+|   |   |   |   |   |   month = jul: yes (4.0)
+|   |   |   |   |   |   month = aug: yes (3.0)
+|   |   |   |   |   |   month = oct: yes (1.0)
+|   |   |   |   |   |   month = nov
+|   |   |   |   |   |   |   duration <= 816: yes (2.0)
+|   |   |   |   |   |   |   duration > 816: no (2.0)
+|   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   month = jan: yes (1.0)
+|   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   month = apr: yes (3.0)
+|   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   job = student: yes (2.0)
+|   |   |   |   marital = single
+|   |   |   |   |   contact = unknown
+|   |   |   |   |   |   duration <= 1166
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   job = admin.: yes (10.0/1.0)
+|   |   |   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   |   |   duration <= 970: yes (14.0)
+|   |   |   |   |   |   |   |   |   duration > 970: no (3.0/1.0)
+|   |   |   |   |   |   |   |   job = services: yes (8.0/1.0)
+|   |   |   |   |   |   |   |   job = management: yes (13.0/3.0)
+|   |   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   |   |   month = may
+|   |   |   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   |   |   loan = no
+|   |   |   |   |   |   |   |   |   |   |   |   age <= 31: yes (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   age > 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   balance <= 19: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   balance > 19: no (2.0)
+|   |   |   |   |   |   |   |   |   |   |   loan = yes: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   education = tertiary: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = jun: yes (5.0)
+|   |   |   |   |   |   |   |   |   month = jul: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = aug: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = nov: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = jan: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = feb: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   |   |   job = unemployed: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   job = entrepreneur: yes (2.0)
+|   |   |   |   |   |   |   |   job = housemaid: no (1.0)
+|   |   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   |   job = self-employed: yes (2.0)
+|   |   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   |   housing = no
+|   |   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   |   job = admin.: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   job = technician: no (3.0)
+|   |   |   |   |   |   |   |   |   job = services: no (1.0)
+|   |   |   |   |   |   |   |   |   job = management: no (1.0)
+|   |   |   |   |   |   |   |   |   job = retired: no (0.0)
+|   |   |   |   |   |   |   |   |   job = blue-collar: yes (2.0/1.0)
+|   |   |   |   |   |   |   |   |   job = unemployed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = entrepreneur: no (0.0)
+|   |   |   |   |   |   |   |   |   job = housemaid: no (0.0)
+|   |   |   |   |   |   |   |   |   job = unknown: no (0.0)
+|   |   |   |   |   |   |   |   |   job = self-employed: no (0.0)
+|   |   |   |   |   |   |   |   |   job = student: no (0.0)
+|   |   |   |   |   |   |   |   education = tertiary: yes (11.0)
+|   |   |   |   |   |   |   |   education = primary: yes (1.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   |   duration > 1166: yes (33.0)
+|   |   |   |   |   contact = cellular
+|   |   |   |   |   |   job = admin.: yes (30.0/1.0)
+|   |   |   |   |   |   job = technician
+|   |   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   |   month = may: yes (6.0)
+|   |   |   |   |   |   |   |   month = jun: yes (2.0)
+|   |   |   |   |   |   |   |   month = jul: yes (9.0)
+|   |   |   |   |   |   |   |   month = aug
+|   |   |   |   |   |   |   |   |   duration <= 1503: yes (11.0)
+|   |   |   |   |   |   |   |   |   duration > 1503
+|   |   |   |   |   |   |   |   |   |   campaign <= 2: no (2.0)
+|   |   |   |   |   |   |   |   |   |   campaign > 2: yes (2.0)
+|   |   |   |   |   |   |   |   month = oct: yes (1.0)
+|   |   |   |   |   |   |   |   month = nov: yes (4.0)
+|   |   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   |   month = jan: yes (2.0)
+|   |   |   |   |   |   |   |   month = feb: yes (2.0)
+|   |   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   |   month = apr
+|   |   |   |   |   |   |   |   |   age <= 32
+|   |   |   |   |   |   |   |   |   |   day <= 15: yes (3.0)
+|   |   |   |   |   |   |   |   |   |   day > 15: no (2.0)
+|   |   |   |   |   |   |   |   |   age > 32: yes (4.0)
+|   |   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   |   education = tertiary: yes (24.0)
+|   |   |   |   |   |   |   education = primary: no (1.0)
+|   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   job = services: yes (30.0)
+|   |   |   |   |   |   job = management
+|   |   |   |   |   |   |   month = may: yes (6.0/1.0)
+|   |   |   |   |   |   |   month = jun: yes (1.0)
+|   |   |   |   |   |   |   month = jul
+|   |   |   |   |   |   |   |   day <= 23: yes (8.0)
+|   |   |   |   |   |   |   |   day > 23
+|   |   |   |   |   |   |   |   |   campaign <= 3: no (2.0)
+|   |   |   |   |   |   |   |   |   campaign > 3: yes (4.0/1.0)
+|   |   |   |   |   |   |   month = aug
+|   |   |   |   |   |   |   |   duration <= 1107: yes (20.0)
+|   |   |   |   |   |   |   |   duration > 1107
+|   |   |   |   |   |   |   |   |   balance <= 1724
+|   |   |   |   |   |   |   |   |   |   balance <= 127: yes (2.0)
+|   |   |   |   |   |   |   |   |   |   balance > 127: no (3.0)
+|   |   |   |   |   |   |   |   |   balance > 1724: yes (3.0)
+|   |   |   |   |   |   |   month = oct: yes (3.0/1.0)
+|   |   |   |   |   |   |   month = nov: yes (4.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan
+|   |   |   |   |   |   |   |   age <= 36: no (2.0)
+|   |   |   |   |   |   |   |   age > 36: yes (2.0)
+|   |   |   |   |   |   |   month = feb: yes (4.0)
+|   |   |   |   |   |   |   month = mar: yes (2.0)
+|   |   |   |   |   |   |   month = apr: yes (6.0/1.0)
+|   |   |   |   |   |   |   month = sep: yes (5.0)
+|   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   job = blue-collar: yes (53.0/3.0)
+|   |   |   |   |   |   job = unemployed
+|   |   |   |   |   |   |   month = may: yes (0.0)
+|   |   |   |   |   |   |   month = jun: yes (1.0)
+|   |   |   |   |   |   |   month = jul: yes (3.0)
+|   |   |   |   |   |   |   month = aug: yes (1.0)
+|   |   |   |   |   |   |   month = oct: yes (0.0)
+|   |   |   |   |   |   |   month = nov: yes (2.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (4.0)
+|   |   |   |   |   |   |   month = feb
+|   |   |   |   |   |   |   |   education = secondary: yes (3.0/1.0)
+|   |   |   |   |   |   |   |   education = tertiary: no (1.0)
+|   |   |   |   |   |   |   |   education = primary: yes (2.0)
+|   |   |   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   job = entrepreneur: yes (6.0)
+|   |   |   |   |   |   job = housemaid: yes (3.0)
+|   |   |   |   |   |   job = unknown: yes (2.0)
+|   |   |   |   |   |   job = self-employed
+|   |   |   |   |   |   |   month = may: yes (3.0)
+|   |   |   |   |   |   |   month = jun: no (1.0)
+|   |   |   |   |   |   |   month = jul: yes (2.0)
+|   |   |   |   |   |   |   month = aug: yes (2.0)
+|   |   |   |   |   |   |   month = oct: yes (1.0)
+|   |   |   |   |   |   |   month = nov: yes (3.0/1.0)
+|   |   |   |   |   |   |   month = dec: yes (0.0)
+|   |   |   |   |   |   |   month = jan: yes (1.0)
+|   |   |   |   |   |   |   month = feb: yes (1.0)
+|   |   |   |   |   |   |   month = mar: yes (0.0)
+|   |   |   |   |   |   |   month = apr: yes (0.0)
+|   |   |   |   |   |   |   month = sep: yes (0.0)
+|   |   |   |   |   |   job = student: yes (17.0/2.0)
+|   |   |   |   |   contact = telephone: yes (15.0/1.0)
+|   |   |   |   marital = divorced
+|   |   |   |   |   month = may
+|   |   |   |   |   |   education = secondary: yes (31.0/1.0)
+|   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   job = admin.: yes (0.0)
+|   |   |   |   |   |   |   job = technician: no (2.0)
+|   |   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   |   job = management: yes (11.0/1.0)
+|   |   |   |   |   |   |   job = retired: yes (1.0)
+|   |   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   |   job = self-employed: yes (2.0)
+|   |   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   |   education = primary: yes (11.0)
+|   |   |   |   |   |   education = unknown: yes (0.0)
+|   |   |   |   |   month = jun: yes (21.0)
+|   |   |   |   |   month = jul
+|   |   |   |   |   |   job = admin.: yes (5.0)
+|   |   |   |   |   |   job = technician: no (3.0/1.0)
+|   |   |   |   |   |   job = services
+|   |   |   |   |   |   |   housing = yes
+|   |   |   |   |   |   |   |   campaign <= 2: yes (2.0)
+|   |   |   |   |   |   |   |   campaign > 2: no (2.0)
+|   |   |   |   |   |   |   housing = no: yes (3.0)
+|   |   |   |   |   |   job = management: yes (11.0)
+|   |   |   |   |   |   job = retired: yes (8.0/1.0)
+|   |   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   |   education = secondary: yes (3.0)
+|   |   |   |   |   |   |   education = tertiary: yes (0.0)
+|   |   |   |   |   |   |   education = primary: yes (4.0)
+|   |   |   |   |   |   |   education = unknown: no (1.0)
+|   |   |   |   |   |   job = unemployed: yes (1.0)
+|   |   |   |   |   |   job = entrepreneur: yes (4.0)
+|   |   |   |   |   |   job = housemaid: yes (2.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   month = aug: yes (25.0)
+|   |   |   |   |   month = oct: yes (3.0/1.0)
+|   |   |   |   |   month = nov: yes (14.0/1.0)
+|   |   |   |   |   month = dec: yes (1.0)
+|   |   |   |   |   month = jan
+|   |   |   |   |   |   job = admin.: yes (2.0)
+|   |   |   |   |   |   job = technician: yes (2.0)
+|   |   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   |   job = management: yes (0.0)
+|   |   |   |   |   |   job = retired: no (1.0)
+|   |   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   month = feb
+|   |   |   |   |   |   education = secondary: yes (2.0)
+|   |   |   |   |   |   education = tertiary: yes (1.0)
+|   |   |   |   |   |   education = primary: no (2.0)
+|   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   month = mar: yes (1.0)
+|   |   |   |   |   month = apr
+|   |   |   |   |   |   job = admin.: no (1.0)
+|   |   |   |   |   |   job = technician: yes (0.0)
+|   |   |   |   |   |   job = services: yes (2.0)
+|   |   |   |   |   |   job = management: yes (1.0)
+|   |   |   |   |   |   job = retired: yes (2.0)
+|   |   |   |   |   |   job = blue-collar: yes (2.0)
+|   |   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   |   job = self-employed: yes (0.0)
+|   |   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   |   month = sep: yes (4.0/1.0)
+|   |   |   poutcome = other
+|   |   |   |   education = secondary
+|   |   |   |   |   loan = no
+|   |   |   |   |   |   duration <= 1156: yes (15.0)
+|   |   |   |   |   |   duration > 1156
+|   |   |   |   |   |   |   previous <= 1: no (3.0)
+|   |   |   |   |   |   |   previous > 1: yes (3.0)
+|   |   |   |   |   loan = yes
+|   |   |   |   |   |   day <= 17: no (2.0)
+|   |   |   |   |   |   day > 17: yes (2.0)
+|   |   |   |   education = tertiary
+|   |   |   |   |   job = admin.: yes (0.0)
+|   |   |   |   |   job = technician: yes (1.0)
+|   |   |   |   |   job = services: no (1.0)
+|   |   |   |   |   job = management
+|   |   |   |   |   |   previous <= 5: yes (21.0/2.0)
+|   |   |   |   |   |   previous > 5: no (3.0/1.0)
+|   |   |   |   |   job = retired: yes (2.0)
+|   |   |   |   |   job = blue-collar: no (1.0)
+|   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   job = entrepreneur: yes (2.0)
+|   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   job = unknown: yes (0.0)
+|   |   |   |   |   job = self-employed: yes (2.0/1.0)
+|   |   |   |   |   job = student: yes (0.0)
+|   |   |   |   education = primary: yes (8.0)
+|   |   |   |   education = unknown: yes (1.0)
+|   |   |   poutcome = failure
+|   |   |   |   month = may
+|   |   |   |   |   age <= 29
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   campaign <= 1: yes (3.0)
+|   |   |   |   |   |   |   campaign > 1: no (3.0/1.0)
+|   |   |   |   |   |   education = tertiary: no (3.0)
+|   |   |   |   |   |   education = primary: no (0.0)
+|   |   |   |   |   |   education = unknown: no (0.0)
+|   |   |   |   |   age > 29
+|   |   |   |   |   |   age <= 56: yes (53.0/1.0)
+|   |   |   |   |   |   age > 56: no (3.0/1.0)
+|   |   |   |   month = jun: yes (8.0/1.0)
+|   |   |   |   month = jul: yes (4.0)
+|   |   |   |   month = aug: yes (7.0)
+|   |   |   |   month = oct: yes (3.0/1.0)
+|   |   |   |   month = nov: yes (13.0/1.0)
+|   |   |   |   month = dec: yes (0.0)
+|   |   |   |   month = jan: yes (0.0)
+|   |   |   |   month = feb
+|   |   |   |   |   job = admin.: yes (3.0)
+|   |   |   |   |   job = technician: yes (3.0)
+|   |   |   |   |   job = services: yes (0.0)
+|   |   |   |   |   job = management: no (1.0)
+|   |   |   |   |   job = retired: yes (3.0)
+|   |   |   |   |   job = blue-collar: yes (0.0)
+|   |   |   |   |   job = unemployed: yes (2.0)
+|   |   |   |   |   job = entrepreneur: yes (2.0/1.0)
+|   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   job = unknown: yes (1.0)
+|   |   |   |   |   job = self-employed: yes (2.0/1.0)
+|   |   |   |   |   job = student: yes (1.0)
+|   |   |   |   month = mar: yes (1.0)
+|   |   |   |   month = apr
+|   |   |   |   |   job = admin.: yes (2.0)
+|   |   |   |   |   job = technician: yes (5.0)
+|   |   |   |   |   job = services: yes (3.0)
+|   |   |   |   |   job = management
+|   |   |   |   |   |   education = secondary: yes (2.0)
+|   |   |   |   |   |   education = tertiary
+|   |   |   |   |   |   |   balance <= 2520: yes (4.0/1.0)
+|   |   |   |   |   |   |   balance > 2520: no (2.0)
+|   |   |   |   |   |   education = primary: yes (0.0)
+|   |   |   |   |   |   education = unknown: no (1.0)
+|   |   |   |   |   job = retired: yes (0.0)
+|   |   |   |   |   job = blue-collar
+|   |   |   |   |   |   education = secondary
+|   |   |   |   |   |   |   duration <= 1449: no (2.0)
+|   |   |   |   |   |   |   duration > 1449: yes (2.0)
+|   |   |   |   |   |   education = tertiary: yes (0.0)
+|   |   |   |   |   |   education = primary: yes (3.0)
+|   |   |   |   |   |   education = unknown: yes (1.0)
+|   |   |   |   |   job = unemployed: yes (0.0)
+|   |   |   |   |   job = entrepreneur: yes (0.0)
+|   |   |   |   |   job = housemaid: yes (0.0)
+|   |   |   |   |   job = unknown: yes (1.0)
+|   |   |   |   |   job = self-employed: yes (1.0)
+|   |   |   |   |   job = student: yes (2.0/1.0)
+|   |   |   |   month = sep: yes (8.0)
+|   |   |   poutcome = success
+|   |   |   |   month = may: yes (24.0)
+|   |   |   |   month = jun: yes (7.0)
+|   |   |   |   month = jul: yes (9.0)
+|   |   |   |   month = aug
+|   |   |   |   |   age <= 62: yes (5.0)
+|   |   |   |   |   age > 62: no (2.0)
+|   |   |   |   month = oct: yes (8.0)
+|   |   |   |   month = nov: yes (5.0)
+|   |   |   |   month = dec: yes (4.0)
+|   |   |   |   month = jan: yes (5.0)
+|   |   |   |   month = feb: yes (9.0)
+|   |   |   |   month = mar: yes (2.0)
+|   |   |   |   month = apr: yes (8.0)
+|   |   |   |   month = sep: yes (8.0)
+
+Number of Leaves  : 	2352
+
+Size of the tree : 	3050
+
+And the class deposit is... yes
+
+Correctly Classified Instances        9487               84.9937 %
+Incorrectly Classified Instances      1675               15.0063 %
+Kappa statistic                          0.7003
+Mean absolute error                      0.2109
+Root mean squared error                  0.3501
+Relative absolute error                 42.3044 %
+Root relative squared error             70.1137 %
+Total Number of Instances            11162     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4670  619 |    a = yes
+ 1056 4817 |    b = no
+
+** Logistic Regression Evaluation with Datasets **
+
+Correctly Classified Instances        2755               82.2634 %
+Incorrectly Classified Instances       594               17.7366 %
+Kappa statistic                          0.6436
+Mean absolute error                      0.2558
+Root mean squared error                  0.3567
+Relative absolute error                 51.2943 %
+Root relative squared error             71.4336 %
+Total Number of Instances             3349     
+
+ the expression for the input data as per alogorithm is Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                         Class
+Variable                   yes
+==============================
+age                    -0.0014
+job=admin.               0.147
+job=technician           0.012
+job=services            -0.167
+job=management         -0.0826
+job=retired             0.4512
+job=blue-collar        -0.1515
+job=unemployed          0.1568
+job=entrepreneur        -0.273
+job=housemaid          -0.3228
+job=unknown            -0.4645
+job=self-employed      -0.2887
+job=student             0.8199
+marital=married        -0.1413
+marital=single          0.1405
+marital=divorced        0.0418
+education=secondary    -0.0161
+education=tertiary      0.2113
+education=primary      -0.3492
+education=unknown      -0.0541
+balance                      0
+housing=no              0.8061
+loan=yes               -0.5064
+contact=unknown        -1.0108
+contact=cellular          0.64
+contact=telephone       0.5723
+day                     0.0057
+month=may              -0.2856
+month=jun               0.7148
+month=jul               -0.632
+month=aug              -0.5648
+month=oct               1.3433
+month=nov              -0.5643
+month=dec               1.7924
+month=jan              -0.7754
+month=feb                0.119
+month=mar               2.4137
+month=apr               0.3455
+month=sep               1.2678
+duration                0.0055
+campaign               -0.0853
+previous                0.0294
+poutcome=unknown       -0.5669
+poutcome=other         -0.2933
+poutcome=failure       -0.3588
+poutcome=success        1.8008
+Intercept              -2.2233
+
+
+Odds Ratios...
+                         Class
+Variable                   yes
+==============================
+age                     0.9986
+job=admin.              1.1584
+job=technician           1.012
+job=services            0.8462
+job=management          0.9207
+job=retired             1.5702
+job=blue-collar         0.8594
+job=unemployed          1.1697
+job=entrepreneur        0.7611
+job=housemaid           0.7241
+job=unknown             0.6284
+job=self-employed       0.7493
+job=student             2.2703
+marital=married         0.8682
+marital=single          1.1508
+marital=divorced        1.0427
+education=secondary      0.984
+education=tertiary      1.2353
+education=primary       0.7052
+education=unknown       0.9473
+balance                      1
+housing=no              2.2391
+loan=yes                0.6026
+contact=unknown         0.3639
+contact=cellular        1.8966
+contact=telephone       1.7723
+day                     1.0057
+month=may               0.7515
+month=jun               2.0439
+month=jul               0.5315
+month=aug               0.5685
+month=oct               3.8316
+month=nov               0.5688
+month=dec               6.0037
+month=jan               0.4605
+month=feb               1.1263
+month=mar              11.1752
+month=apr               1.4127
+month=sep               3.5531
+duration                1.0056
+campaign                0.9182
+previous                1.0298
+poutcome=unknown        0.5673
+poutcome=other          0.7458
+poutcome=failure        0.6985
+poutcome=success        6.0542
+
+Confusion matrix:
+[1259.0, 329.0]
+[265.0, 1496.0]
+-------------------
+Area under the curve
+0.8993762846562163
+-------------------
+[Correct, Incorrect, Kappa, Total cost, Average cost, KB relative, KB information, Correlation, Complexity 0, Complexity scheme, Complexity improvement, MAE, RMSE, RAE, RRSE, Coverage, Region size, TP rate, FP rate, Precision, Recall, F-measure, MCC, ROC area, PRC area]
+Recall :0.85
+Precision:0.82
+F1 score:0.83
+Accuracy:0.82
+-------------------
+Predicted label:
+0.0
